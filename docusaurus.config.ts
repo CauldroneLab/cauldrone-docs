@@ -101,11 +101,11 @@ const config: Config = {
           items: [
             {
               label: 'Hardware',
-              to: '/docs/hardware',
+              to: '/docs/category/hardware',
             },
             {
               label: 'Software',
-              to: '/docs/software',
+              to: '/docs/category/software',
             },
           ],
         },
