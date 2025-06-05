@@ -73,7 +73,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'cauldrone',
+      title: 'Cauldrone Documentation',
       logo: {
         alt: 'cauldrone Logo',
         src: 'img/cauldrone-logo-only.svg',
