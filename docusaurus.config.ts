@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'cauldrone',
-  tagline: 'Dinosaurs are cool',
+  title: 'Cauldrone Documentation',
+  tagline: 'Cauldrone Documentation',
   favicon: 'img/cauldrone-logo-only.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
