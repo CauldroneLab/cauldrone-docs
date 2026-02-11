@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Cauldrone Documentation',
-  tagline: 'Cauldrone Documentation',
+  tagline: 'The Official Documentation for Cauldrone Products.',
   favicon: 'img/cauldrone-logo-only.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -84,11 +84,36 @@ const config: Config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com',
+      },
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Cauldrone Documentation',
+      title: 'Cauldrone Docs',
       logo: {
         alt: 'cauldrone Logo',
         src: 'img/cauldrone-logo-only.svg',

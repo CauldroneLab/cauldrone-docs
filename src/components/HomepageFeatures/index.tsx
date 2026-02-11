@@ -11,32 +11,30 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Simple Board',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        The board is designed to simplify the setup and pin assignment of microcontoller to be compatible with Arduino Library and Mircopython. 
+        It lets you work on your ideas in seconds.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Cauldrone Library',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We prepared software libraries for all of our product to further makes hardware setup easier and faster.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Growing Product Catalog',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The cauldone products catalog grows with you. Your feedback will be used to continue making our products better and larger quantity to help you work on your ideas.
       </>
     ),
   },
