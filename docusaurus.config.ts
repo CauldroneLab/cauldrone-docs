@@ -105,10 +105,10 @@ const config: Config = {
               label: 'Hardware',
               to: '/docs/category/hardware',
             },
-            {
-              label: 'Software',
-              to: '/docs/category/software',
-            },
+            // {
+            //   label: 'Software',
+            //   to: '/docs/category/software',
+            // },
           ],
         },
         {
