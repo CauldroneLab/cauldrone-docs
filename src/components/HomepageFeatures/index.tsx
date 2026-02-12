@@ -12,7 +12,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Simple Board',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/simple-board-line-07.svg').default,
     description: (
       <>
         The board is designed to simplify the setup and pin assignment of microcontoller to be compatible with Arduino Library and Mircopython. 
